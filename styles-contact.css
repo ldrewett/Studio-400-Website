@@ -1,0 +1,251 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+
+.top {
+	align-content: top;
+	padding: 1%;
+    margin: auto;
+ 	background: #e6e7e8; /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	vertical-align: top;
+	border-bottom: 2px solid white;
+	width: 100%;
+}
+
+.center {
+    width: 650px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: #e6e7e8d3; /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 2px solid white;
+}
+
+.content {
+    width: 1000px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: #e6e7e8d3; /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 2px solid white;
+}
+
+.students {
+	font-family: niveau-grotesk, sans-serif;
+	font-size: 1em;
+	font-style: italic;
+	line-height: 25px;
+    width: 650px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: #e6e7e8d3; /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 2px solid white;
+	text-align: left;
+}
+
+
+.right {
+	display: inline-block;
+	align-content: right;
+	width: 450px;
+}
+
+.left {
+	display: inline-block;
+	align-content: left;
+	text-align: right;
+	width: 175px;
+	padding-right: 5px;
+}
+   
+#logo2x {
+    margin-bottom: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+#logo1x {
+	text-align: left;
+}
+
+#content {
+    margin-bottom: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	width: 24%;
+	display: inline;
+	padding: 0%;
+}
+
+#render {
+    margin-bottom: 15px;
+	padding-bottom: 25px;
+	text-align: center;
+	width: 100%;
+	display: inline;
+	padding: 0%;
+	background-color: white;
+}
+
+#diagram {
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	width: 16%;
+	display: inline;
+	padding: 0%;
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: niveau-grotesk, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2em;
+    margin-top: 0px auto 25px auto;
+	margin-bottom: 15px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: niveau-grotesk, sans-serif;
+	font-size: 1.75em;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+    margin: 5px auto 10px auto;
+}
+
+h3 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: niveau-grotesk, sans-serif;
+	font-size: 1.35em;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+    margin: 0px auto 20px auto;
+	text-align: left;
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: niveau-grotesk, sans-serif;
+	font-size: 1em;
+	font-style: italic;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+	text-align: left;
+	margin-bottom: 1%;
+}
+
+ul a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+nav {
+
+	font-family: niveau-grotesk, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2em;
+	width: 800px;
+	margin: 0 auto;
+	border-width: 3px;
+	text-align: center;
+	margin-top: .5em;
+	vertical-align: top;
+}
+
+nav li {
+	display: inline-block;
+	vertical-align: middle;
+} 
+
+nav a {
+	display: inline-block;
+	vertical-align: mid;
+	padding:25px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	display: inline-block;
+}
+    
+
